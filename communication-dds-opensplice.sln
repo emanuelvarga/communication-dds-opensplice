@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "communication-dds-opensplice", "src\communication-dds-opensplice.csproj", "{ECDC366A-3969-417C-8FB7-161989BBF961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{551B2263-7C63-4793-9381-D899E93652CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{C5F27C51-4EA0-41A1-A16B-32F29913BF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "communication-dds-api", "lib\communication-dds-api\src\communication-dds-api.csproj", "{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDC366A-3969-417C-8FB7-161989BBF961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDC366A-3969-417C-8FB7-161989BBF961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDC366A-3969-417C-8FB7-161989BBF961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDC366A-3969-417C-8FB7-161989BBF961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECDC366A-3969-417C-8FB7-161989BBF961} = {551B2263-7C63-4793-9381-D899E93652CF}
+		{7F47FF11-CA79-4779-8850-EC5F9DBD2C0D} = {C5F27C51-4EA0-41A1-A16B-32F29913BF5F}
+	EndGlobalSection
+EndGlobal
